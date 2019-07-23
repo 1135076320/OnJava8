@@ -327,7 +327,7 @@ it shop sir the much cheese by conclusion district is
 
 在 `toString()` 和主方法中你看到了 `collect()` 收集操作，它根据参数来组合所有流中的元素。
 
-当你使用 **Collectors.**`joining()`，你将会得到一个 `String` 类型的结果，每个元素都根据 `joining()` 的参数来进行分割。还有许多不同的 `Collectors` 用于获取不同的结果。
+当你使用 **Collectors.**`joining()`，你将会得到一个 `String` 类型的结果，每个元素都根据 `joining()` 的参数来进行分隔。还有许多不同的 `Collectors` 用于获取不同的结果。
 
 在主方法中，我们看到了 **Stream.**`generate()` 的预览版本，它可以把任意  `Supplier<T>` 用于生成 `T` 类型的流。
 
